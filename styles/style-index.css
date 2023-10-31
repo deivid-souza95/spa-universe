@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(40%, 1% + 2vh, 62.5%);
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  /* background-image: url(/assets/images/logo.svg); */
+  background-repeat: no-repeat;
+  background-position: 10rem;
+  width: 100vw;
+  display: flex;
+
+  height: 4.2rem;
+  align-items: center;
+
+  padding: 8.0rem 15.2rem;
+}
+
+nav a {
+  font-size: 2.6rem;
+
+  color: hsla(240, 7%, 78%, 1);
+
+  text-decoration: none;
+  padding: 0 3.2rem;
+}
+
+main a:hover {
+  color: #ffffff;
+}
+
